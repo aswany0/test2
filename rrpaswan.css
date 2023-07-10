@@ -1,0 +1,287 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.navigation-bar {
+  background-color: blueviolet;
+  display: flex;
+  margin-top: 30px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #3b2a4e;
+}
+
+.logo {
+  display: flex;
+  padding-left: 30px;
+  color: azure;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin-left: 650px;
+}
+
+li {
+  float: right;
+  padding-left: 100px;
+  padding-top: 2px;
+}
+
+li a {
+  color: azure;
+  font-size: 20px;
+}
+
+.head-title {
+  text-align: center;
+  margin-top: 50px;
+  color: #3b2a4e;
+}
+
+.left-image {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+img {
+  width: 500px;
+}
+
+.fist-paragraph {
+  display: flex;
+  border: 1px solid;
+  border-color: blueviolet;
+  border-radius: 5px;
+  padding-bottom: 25px;
+}
+
+.first-paragraph-right {
+  margin-top: 15px;
+}
+
+.right-title {
+  display: flex;
+  margin-left: 100px;
+  padding-top: 10px;
+}
+
+.second-title {
+  color: blueviolet;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.third-title {
+  font-family: sans-serif;
+  margin-top: -20px;
+  padding-top: 0;
+  font-size: 20px;
+  margin-left: 35px;
+  text-align: center;
+  color: #3b2a4e;
+}
+
+.button {
+  margin-left: 300px;
+  margin-top: 75px;
+}
+
+.button :hover {
+  cursor: pointer;
+}
+
+.b2 {
+  margin-left: 20px;
+  background-color: blueviolet;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.b1 {
+  background-color: blueviolet;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.second-section {
+  align-items: center;
+  justify-content: center;
+}
+
+.partners {
+  font-size: 40px;
+  color: blueviolet;
+  border: 3px solid;
+  text-align: center;
+  margin-left: 650px;
+  margin-top: 100px;
+  background-color: azure;
+}
+
+.second-section .first-arrow {
+  content: "\2193";
+  margin-left: 700px;
+  font-size: 50px;
+  margin-top: -15px;
+}
+
+.second-section .down-arrows li {
+  display: flex;
+  text-decoration: none;
+  font-size: 40px;
+  border-top: 3px solid black;
+  margin-right: 25px;
+}
+
+li span {
+  margin-top: -12px;
+}
+
+.second-section .partners-sections {
+  display: flex;
+  border-top: 5px solid black;
+}
+
+.second-section .partners-sections :hover {
+  cursor: pointer;
+}
+
+.second-section .partners-sections button {
+  display: flex;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.second-section .partners-sections .partner {
+  margin-right: 45px;
+  align-items: center;
+  background-color: blueviolet;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.third-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-color: blueviolet;
+  border-radius: 5px;
+  padding-bottom: 35px;
+  margin-top: 200px;
+}
+
+.third-section .left-reports {
+  display: flex;
+  height: 150px;
+  margin-right: 150px;
+}
+
+.third-section .left-reports button {
+  align-items: center;
+  background-color: blueviolet;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.third-section .left-reports :hover {
+  cursor: pointer;
+}
+
+.third-section .qr-code {
+  display: flex;
+  width: 100px;
+  margin-right: 45px;
+}
+
+.third-section .qr-code :hover {
+  cursor: pointer;
+}
+
+.third-section .right-image {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+.last-section {
+  display: flex;
+  margin-top: 200px;
+}
+.last-section button {
+  background-color: blueviolet;
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  display: flex;
+  margin-left: 500px;
+}
+
+.last-section :hover {
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 50px;
+  margin-left: 550px;
+  align-items: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+  height: 50px;
+  border-radius: 100%;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #3b2a4e;
+  height: 50px;
+}
+
+.fa-phone {
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+}
